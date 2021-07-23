@@ -1,5 +1,6 @@
 import asyncio
 import os
+import time
 from telethon import TelegramClient, events
 from telethon.tl.custom.message import Message
 from telethon.client.downloads import DownloadMethods
