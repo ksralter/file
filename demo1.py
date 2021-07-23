@@ -17,7 +17,7 @@ async def demo(event):
     print('1')
     async for i in client.iter_messages('MyGoogleDrive0',limit=1):
         print('started')
-        downloaded_location = await download_without_progressbar(client, i.message)
+        downloaded_location = await download_without_progressbar(client, i.media)
         print('donedoenloaded ',downloaded_location)
 
 
