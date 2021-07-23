@@ -25,7 +25,7 @@ async def demo(event):
         print(f'downloaded {downloaded_location}')
         time.sleep(2)
         os.remove(downloaded_location)
-        print('deleted)
+        print('deleted')
         
 #         print('donedoenloaded')
         # x = await client.download_media(i)
