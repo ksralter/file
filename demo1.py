@@ -1,4 +1,5 @@
 import asyncio
+import os
 from telethon import TelegramClient, events
 from telethon.tl.custom.message import Message
 from telethon.client.downloads import DownloadMethods
@@ -21,7 +22,12 @@ async def demo(event):
         print(i)
 
         downloaded_location = await download_without_progressbar(client, i)
-        print('donedoenloaded')
+        print(f'downloaded {downloaded_location}')
+        time.sleep(2)
+        os.remove(downloaded_location)
+        print('deleted)
+        
+#         print('donedoenloaded')
         # x = await client.download_media(i)
         # print(x)
         # f.write(x)
