@@ -1,4 +1,2 @@
 telethon
 cryptg
-git+https://github.com/ksralter/FastTelethonhelper.git
-Fastthone
