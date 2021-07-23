@@ -3,7 +3,7 @@ from telethon import TelegramClient, events
 from telethon.tl.custom.message import Message
 from telethon.client.downloads import DownloadMethods
 from telethon.utils import get_input_location
-from pyaxmlparser import APK
+# from pyaxmlparser import APK
 import cryptg
 from FastTelethonhelper import download_without_progressbar
 
