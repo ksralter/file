@@ -1,4 +1,3 @@
 telethon
 cryptg
-telethon-tgcrypto
-git+https://github.com/ksralter/FastTelethonhelper
+FastTelethonhelper
