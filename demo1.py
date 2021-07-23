@@ -1,4 +1,3 @@
-import FastThone
 import asyncio
 import os
 from telethon import TelegramClient, events
